@@ -1,0 +1,30 @@
+<div class="margenes">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active parlante">
+      <img src="../../../assets/i7bAqg3w.2022-05-19 22_46_15.851375.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item parlante">
+      <img src="../../../assets/Mj3pdZDw.2022-05-19 22_27_57.060202.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item parlante">
+      <img src="../../../assets/Z_cPSiz5.2022-05-19 22_36_17.879324.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<script>
+const myCarouselElement = document.querySelector('#myCarousel')
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  wrap: false
+})
+</script>

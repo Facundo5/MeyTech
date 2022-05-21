@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+body{
+    font-family: 'Monda', sans-serif;
+    color: #444444;
+    background-color: #FAFAFA;
+    font-size: 16px;
+}
+.navbar {
+    background-color: #a3b18a;
+    font-size: 16px;
+}
+/*Card*/
+.card-link {
+  content: center;
+  padding: 2px;
+
+}
+.card-body {
+  text-align: center;
+}
+.card {
+  margin: 20px;
+  transition: all 400ms ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+  transform: translateY(-3%);
+}
+.navbar {
+  font-size: 20px;
+}
+/*Bottom card*/
+.hvr-bounce-to-top {
+  backface-visibility: hidden;
+  background: #bde0fe none repeat scroll 0 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  color: grey;
+  display: inline-block;
+  font-size: 16px;
+  padding: 9px 0;
+  position: relative;
+  transform: translateZ(0px);
+  transition-duration: 0.5s;
+  transition-property: color;
+  vertical-align: middle;
+  width: 140px;
+text-align:center;
+  border-radius: 20px;
+}
+.hvr-bounce-to-top::before {
+  background: #118ab2 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scaleY(0);
+  transform-origin: 50% 100% 0;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  z-index: -1;
+  border-radius: 20px;
+}
+.hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
+  color: black;
+}
+.hvr-bounce-to-top:hover::before, .hvr-bounce-to-top:focus::before, .hvr-bounce-to-top:active::before {
+  transform: scaleY(1);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/*Finish Card*/

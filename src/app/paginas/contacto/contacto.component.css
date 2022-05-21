@@ -1,0 +1,23 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    background-color: #FAFAFA;
+    font-size: 20px;
+}
+.formstyle {
+    background-color: grey;
+}
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.container {
+  margin-top: 20px;
+}

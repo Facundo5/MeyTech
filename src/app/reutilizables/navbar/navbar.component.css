@@ -1,0 +1,23 @@
+.nav-item {
+  margin-top: 10px;
+  margin-left: 30px
+}
+.nav-itema {
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.nav-itema:hover {
+  background-color: #588157;
+  border-radius: 300px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+body{
+    font-family: 'Monda', sans-serif;
+    color: #444444;
+    background-color: #FAFAFA;
+    font-size: 16px;
+}
+.navbar {
+    background-color: #a3b18a;
+}
